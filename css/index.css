@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+a{
+  text-decoration: none;
+}
+
+.hide{
+  width:0; height:0;
+  position:absolute;
+  visibility: hidden;
+}
+
+/*  공통 */
+
+img{max-width:100%;}
+article{
+  padding:70px 0;
+  box-sizing:border-box;
+}
+article>div{
+  width:1160px;
+  margin: 0 auto;
+}
+article>div>h3{
+  font-size:72px;
+  text-align:center;
+  margin-bottom:50px;
+  font-family: 'Raleway', sans-serif;
+  color:#333333;
+}
+/*  42- 52 */
+/* header */
+header{
+  position:fixed;
+  left:0; top:0;
+  width:100%;
+  padding:18px 0;
+  background-color:rgba(60, 31, 60, 0.7);
+}
+header>div{
+  width:1160px;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header>div>h1{}
+header>div>h1>a{
+  font-weight:bold;
+  font-size:30px;
+  color:#fff;
+}
+/* header>div>nav{}
+nav>ul{} */
+nav>ul>li{
+  display:inline-block;
+  margin-left:27px;
+}
+nav>ul>li>a{
+  font-weight:bold;
+  font-size:18px;
+  color:#fff;
+}
+/* github -> 주소 
+     햄버거 아이콘 
+     40 - 50
+     
+*/
